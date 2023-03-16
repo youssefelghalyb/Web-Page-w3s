@@ -1,0 +1,285 @@
+body{
+    background-color: #fff;
+    font-family: Verdana,sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    padding: auto;
+    margin: auto;
+}
+
+section{
+    margin-left: 26px;
+}
+
+
+/* Start Nav  */
+header{
+    padding-bottom: 11px;
+    padding-top: 11px;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    background-color: #fff;
+    top: 0;
+    box-shadow: 0 10px 10px -11px #000;
+}
+
+.nav > a:first-child > span{
+    color: #000;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: bold;
+}
+
+.nav > a{
+    float: left;
+    color: #000;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-family: Verdana,sans-serif;
+    letter-spacing: 4px;
+    padding: 8px 20px 0 27px; 
+
+}
+
+.nav2{
+    float: right ;
+}
+.nav2 > a{
+    float: left;
+    color: #000;
+    text-decoration: none;
+    text-transform: capitalize;
+    padding: 8px 20px 0 27px; 
+    font-family: Verdana,sans-serif;
+    font-weight: 100;
+    letter-spacing: 4px;
+    width: auto;
+    height: 29px;
+}
+
+.nav2 > a:hover{
+    background-color: #D9E0E6;
+}
+
+
+/* End Nav  */
+
+/*Start section one */
+
+.section1{
+    margin: 0 !important;
+}
+
+.section1 > div {
+    position: relative;
+}
+
+
+.section1 > div > img{
+    width:100%;
+    margin: 0 !important;
+}
+.section1 > div > h1{
+    position: absolute;
+    top: 41%;
+    right: 36%;
+    font-size: 36px;
+    font-family: "Segoe UI",Arial,sans-serif;
+    font-weight: 400;
+    letter-spacing: 8px;
+}
+
+.section1 > div > h1 > span{
+    text-transform: uppercase;
+    border:1px solid #000;
+    color:#fff;
+    background-color: #000;
+    opacity: 0.75;
+    padding: 8px 16px;
+    font-weight: bolder;
+    margin-right: 5px;
+}
+ 
+/*End section one */
+
+
+/*Start section two*/
+
+
+section >.section2 > h2{
+    border-bottom: 1px solid #f1f1f1;
+    padding: 16px 0 16px 0; 
+    text-transform: capitalize;
+
+}
+
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.projects > div {
+    padding: 0 16px 0 0;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.projects > div > img{
+width: 325px;
+height: 216px;
+}
+.projTopic{
+    position:absolute;
+    top:0;
+    left: 0;
+    background-color: black;
+    color: #fff;
+    padding: 8px 16px;
+}
+
+
+/*End section two*/
+
+
+/*Start  section Three*/
+.section3 > h2{
+    border-bottom: 1px solid #f1f1f1;
+    padding: 16px 0 16px 0; 
+    text-transform: capitalize;
+
+}
+
+.wokers {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.wokers > .w1{
+    width:300px;
+    padding: 0 42px 0 0;
+    margin-top: 30px;
+}
+
+.wokers > .w1 > img{
+    width: 325px;
+    height: 216px;
+    filter: grayscale(75%);
+
+}
+
+.wokers > .w1 > h3{
+    font-family: "Segoe UI",Arial,sans-serif;
+    font-weight: 400;
+    margin: 10px 0;
+    font-size: 28px;
+}
+
+.w1 > p:first-child {
+    border: 3px solid salmon ;
+}
+
+.w1 > button{
+    width: 100%;
+    border-style:none;
+    padding: 10px;
+    text-transform: capitalize;
+    font-size: 21px;
+}
+
+.w1 > button:hover{
+    cursor: pointer;
+    background-color: #D9E0E6;
+}
+
+
+/*End  section Three*/
+
+
+/*Start  section four*/
+.section4 > h2{
+    border-bottom: 1px solid #f1f1f1;
+    padding: 16px 0 16px 0; 
+    text-transform: capitalize;
+}
+
+.input{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.input > div > input{
+    width: 400px;
+    display: block;
+    margin: 15px;
+    padding: 15px;
+}
+
+.input > div > input[placeholder="Comment"]{
+    width: 700px;
+    height: 178px;
+    text-align:left
+}
+
+.section4 > button{
+    margin: 15px;
+    color:#fff;
+    background-color: #000;
+    padding: 13px;
+    text-transform: uppercase;
+    font-size:17px;
+    border-style: none;
+}
+
+
+.section4 > button:hover{
+    color: #000;
+    background-color: #D9E0E6;
+    cursor: pointer;
+}
+
+/*End  section four*/
+
+/*Sart section five */
+
+.beforfoot{
+    margin: 0 !important;
+}
+.beforfoot > img{
+    width: 100%;
+
+}
+
+/*End section five*/
+
+/*Start Footer*/
+
+
+footer{
+    background-color: #000;
+    text-align: center;
+    color: #fff;
+    padding:4px;
+    margin-top: 10px;
+    text-transform: capitalize;
+}
+
+
+
+.Footer  > #d3 > a
+{
+    color:wheat;
+    height: 30px;
+}
+
+
+
+
+.Footer > #d3:hover{
+    transform: rotateZ(360deg);
+    transition: 1s;
+}
+
+/*End Footer*/
